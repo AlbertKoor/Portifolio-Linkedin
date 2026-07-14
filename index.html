@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Albert Kooro — Desenvolvedor Fullstack</title>
+<meta name="description" content="Portfólio de Albert Kooro, desenvolvedor fullstack especializado em React, TypeScript e interfaces orientadas a lógica de negócio.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="#home" class="logo">AK<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#education">Formação</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner reveal">
+      <p class="eyebrow">Olá, eu sou</p>
+      <h1>Albert Kooro</h1>
+      <h2 class="role">Desenvolvedor <span class="highlight">Fullstack</span></h2>
+      <p class="hero-desc">
+        Construo interfaces limpas e funcionais, unindo lógica de negócio sólida a boas
+        experiências de uso. Venho de uma base em dados e automação — hoje aplico esse
+        raciocínio analítico para transformar problemas reais em produtos fullstack bem pensados.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">Ver projetos</a>
+        <a href="#contact" class="btn btn-ghost">Contato</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/albert-kooro/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://github.com/AlbertKoor" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.99 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.56 9.56 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner reveal">
+      <p class="section-eyebrow">Sobre mim</p>
+      <h2 class="section-title">Do dado ao pixel</h2>
+      <p class="about-text">
+        Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Cruzeiro do Sul.
+        Hoje atuo na <strong>Clicksign</strong>, aplicando dados e IA na área financeira — forecast,
+        análise de variações e automação de rotinas. Esse trabalho me deu um olhar analítico forte
+        para lógica de negócio, que venho aplicando cada vez mais no desenvolvimento fullstack:
+        interfaces que não são só bonitas, mas resolvem o problema certo.
+      </p>
+      <div class="badges">
+        <span class="badge">Git &amp; Lógica JS — Kenzie Academy</span>
+        <span class="badge">Ciência de Dados — Santander Open Academy</span>
+        <span class="badge">Python para Finanças — Udemy</span>
+        <span class="badge">Desenvolvimento de Software — Kenzie Academy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="section-inner reveal">
+      <p class="section-eyebrow">Stack</p>
+      <h2 class="section-title">Ferramentas do dia a dia</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><span class="skill-name">React</span></div>
+        <div class="skill-card"><span class="skill-name">TypeScript</span></div>
+        <div class="skill-card"><span class="skill-name">JavaScript</span></div>
+        <div class="skill-card"><span class="skill-name">Tailwind CSS</span></div>
+        <div class="skill-card"><span class="skill-name">HTML5 &amp; CSS3</span></div>
+        <div class="skill-card"><span class="skill-name">Vite</span></div>
+        <div class="skill-card"><span class="skill-name">Git &amp; GitHub</span></div>
+        <div class="skill-card"><span class="skill-name">Python</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner reveal">
+      <p class="section-eyebrow">Projetos</p>
+      <h2 class="section-title">O que eu construí</h2>
+      <p class="section-lead">Três demos que resolvem um problema de negócio real, com lógica explicável e testável por trás da interface.</p>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-card-glow project-glow-blue"></div>
+          <div class="project-tags">
+            <span>React</span><span>TypeScript</span><span>Tailwind</span>
+          </div>
+          <h3>Chronos</h3>
+          <p class="project-sub">Agendamento sem choque de horários</p>
+          <p class="project-desc">
+            Autônomos gerenciam agenda por WhatsApp e sofrem com horários duplicados. O Chronos
+            torna o conflito impossível por construção, usando o teorema de sobreposição de
+            intervalos e um buffer configurável entre sessões.
+          </p>
+          <a class="project-link" href="/projects/chronos/" target="_blank" rel="noopener">Ver projeto ao vivo →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-glow project-glow-pink"></div>
+          <div class="project-tags">
+            <span>React</span><span>TypeScript</span><span>Tailwind</span>
+          </div>
+          <h3>Churn Radar</h3>
+          <p class="project-sub">Dashboard preditor de retenção</p>
+          <p class="project-desc">
+            Em SaaS, o cancelamento raramente é surpresa. O Churn Radar lê um CSV de uso de
+            clientes e calcula um score de risco explicável — sem caixa-preta de ML — mostrando
+            ao time de CS para quem ligar hoje.
+          </p>
+          <a class="project-link" href="/projects/churn-radar/" target="_blank" rel="noopener">Ver projeto ao vivo →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-glow project-glow-mint"></div>
+          <div class="project-tags">
+            <span>React</span><span>TypeScript</span><span>Tailwind</span>
+          </div>
+          <h3>Logística Smart</h3>
+          <p class="project-sub">Otimizador de fretes para e-commerce</p>
+          <p class="project-desc">
+            Pequenos e-commerces roteirizam entregas "no olho". O Logística Smart agrupa pedidos
+            por CEP e calcula a rota mais curta com a heurística do vizinho mais próximo, mostrando
+            a economia estimada por região.
+          </p>
+          <a class="project-link" href="/projects/logistica-smart/" target="_blank" rel="noopener">Ver projeto ao vivo →</a>
+        </article>
+
+      </div>
+
+      <div class="more-projects">
+        <p>Tem mais coisa no GitHub — HTML/CSS/JS puro, automações e primeiros projetos da faculdade.</p>
+        <a class="btn btn-ghost" href="https://github.com/AlbertKoor" target="_blank" rel="noopener">Ver todos no GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="section-inner reveal">
+      <p class="section-eyebrow">Formação &amp; Certificados</p>
+      <h2 class="section-title">Trilha de estudos</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline-date"></span>
+          <div>
+            <h4>Análise e Desenvolvimento de Sistemas</h4>
+            <p>Universidade Cruzeiro do Sul</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-date"></span>
+          <div>
+            <h4>Git &amp; Lógica com JavaScript</h4>
+            <p>Kenzie Academy</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-date"></span>
+          <div>
+            <h4>Ciência de Dados</h4>
+            <p>Santander Open Academy</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-date"></span>
+          <div>
+            <h4>Python para Finanças</h4>
+            <p>Udemy</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-date"></span>
+          <div>
+            <h4>Fundamentos de HTML e CSS</h4>
+            <p>Kenzie Academy Brasil</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-date"></span>
+          <div>
+            <h4>Desenvolvimento de Software</h4>
+            <p>Kenzie Academy Brasil</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner reveal">
+      <p class="section-eyebrow">Contato</p>
+      <h2 class="section-title">Vamos conversar?</h2>
+      <p class="section-lead">Aberto a oportunidades de front-end e conversas sobre produto, dados e IA aplicada.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/albert-kooro/" target="_blank" rel="noopener">Falar no LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/AlbertKoor" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Albert Kooro — São Paulo, Brasil</p>
+  <p class="footer-muted">Feito com HTML, CSS e JavaScript puros.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
